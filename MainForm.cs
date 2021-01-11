@@ -244,12 +244,13 @@ namespace Scleroglossa
             }
         }
 
-        //protected override void OnSizeChanged(EventArgs e)
-        //{
-        //    base.OnSizeChanged(e);
-        //    panel1.Width = this.Width - 25;
-        //    txtUrlBar.Width = this.Width - 72;
-        //    btnGo.Location = new Point(this.Width - 62, btnGo.Location.Y);
-        //}
+        protected override void OnSizeChanged(EventArgs e)
+        {
+            base.OnSizeChanged(e);
+            geckoWebBrowser1.Width = this.Width - 26;
+            geckoWebBrowser1.Height = this.Height - 104;
+            txtUrlBar.Width = this.Width - 64;
+            btnGo.Location = new Point(this.Width - 54, btnGo.Location.Y);
+        }
     }
 }
