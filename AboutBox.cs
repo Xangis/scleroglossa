@@ -11,8 +11,8 @@ namespace Scleroglossa
 {
     public partial class AboutBox : Form
     {
-        MainWindow mainWindow;
-        public AboutBox(MainWindow main)
+        MainForm mainWindow;
+        public AboutBox(MainForm main)
         {
             InitializeComponent();
             mainWindow = main;

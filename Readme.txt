@@ -1,5 +1,9 @@
 ﻿Todo:
 
+Make enter key work in url text box.
+
+Tasks:
+
 - Examine ThreeTeeth and copy all of its features. This should be the starting point for the app.
 - Examine WbBrowse and copy all of its features.
 - Examine TikBew and copy all of its features.
