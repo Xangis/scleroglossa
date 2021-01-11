@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -112,50 +112,61 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\stop.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnBookmark.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
   </data>
-  <data name="icon_print" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_print.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="stop1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\stop1.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="question" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\question.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="print2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\print2.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="code" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\code.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\refresh.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="stop2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\stop2.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="question2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\question2.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="right" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\right.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="left" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\left.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="openfolder_orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\openfolder_orange.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAACAAAABEAAAAeAAAALAAAADkBAwVDAhYtUwAMGlAAAAFFAAAAPgAAADIAAAAlAAAAGAAA
+        AAwAAAADAAAACAAAABMAAAAkAAAANgAAAEkAAABbAxIjdANo2vIAUa7JAQEDbQAAAGIAAABSAAAAQQAA
+        AC4AAAAaAAAADQAAABAAAAAjAAAAOgAAAFMAAABrAAAAgQYRHZkDaNj5AmbZ+wkJCZgAAACKAAAAdgAA
+        AF8AAABHAAAALwAAABgAAAAcAAAANQAAAFIAAABwAAAAjQAAAKgDCxTBA2bU+wNm2P0EAQDBAAAAtAAA
+        AJsAAACAAAAAYQAAAEIAAAAnAAAAKAAAAEYAAABnAAECjAMOG7UBChPPHSk25ANm1f0DZdb+GB8m5wgM
+        DtgJExvFAAECngAAAHoAAABWAAAANQAAADMAAABVAAAAfAMIDqgAYc/7A2TV/QFk1f4AZ97/AGje/wJk
+        1f4DWLj7AGDN/AEKFb0AAACQAAAAZgAAAEMAAAA7AAAAYQAAAIkXHCG+A2fY/jNVfPoBCRT4AWLQ/gBh
+        0P4DCRP7PWKM/QRi0f4ACBHMAAAAngAAAHYAAABMAAAAPwAAAGYAAACSBRIhxgBj1P0GDRT0AAUM/ANk
+        0P8AYdD/AAUM/QYLEvgAY9T+AAsZ1gAAAKkAAAB8AAAAUAAAAD8AAABmAQsWmQln0PoAY9P9AAYO8wEH
+        DPwCV7X/AGLT/wAGDv0ABg34AWTV/QBl1vsACBOuAAAAfAAAAFAAAAA7AAAAYQEMGJECZdb7A2PQ/AAG
+        Du4BCA/4A2XR/gBh0f4ABw/7AAYO9AFhzvwAY9X8AA4dpwAAAHYAAABMAAAAMwAAAFQGGSyKAWXY+xkm
+        M9UAAAHiAAcP7wNl0v4AYdH+AQcP8wAAAOkADBfaAGTW+glo0/YCDx1wAAAAQwMDBCkLIjxWAGPT7ABl
+        2fgACRSyAAAAywMOGt8CZtj9AGPT/QsWI+UAAADVAAgSwABo3fgAZdj3ABcxZQUFBjcUFRYfDG7b5wBo
+        3/4DXcbfBQ4YlAUMFK4BV7fuAGje/gBo4P8BZ9n7AQkTuQAKFqEBZNXzAGjf/gRr4PAuPU02MzY3FQZr
+        3e8NcODvNUVXbwEBAGsAAACBCBcongBk1/kBZdj6HC09rgEBAosAAAB2AhYtbQtv3u8Ga9zwHyEhHRgh
+        KwkBMWYiBCFAMAAAADYAAABJAAAAWx8mLXYRbtb3AmbW9AEOHXUAAABiAAAAUgAAAEEDHjs6AipXKAwU
+        Gg8AAAAAAAAACAAAABEAAAAeAAAALAAAADkICApFExEOTBojLVcAAAFGAAAAPgAAADIAAAAlAAAAGAAA
+        AAwAAAAD//8AAP5/AAD4HwAA8AcAAOAHAADgAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAgAEAAJgZ
+        AAD+fwAA//8AAA==
+</value>
   </data>
 </root>
