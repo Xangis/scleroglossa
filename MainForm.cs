@@ -31,6 +31,8 @@ namespace Scleroglossa
             }
             InitializeComponent();
             Xpcom.Initialize("Firefox");
+            string sUserAgent = "Scleroglossa/1.0 / Mozilla/5.0 (compatible; Windows) Gecko/60 Firefox/60";
+            Gecko.GeckoPreferences.User["general.useragent.override"] = sUserAgent;
             //btnBack.Enabled = false;
             //btnForward.Enabled = false;
             btnStop.Enabled = false;
@@ -73,6 +75,11 @@ namespace Scleroglossa
 
         private void BtnOpen_Click(object sender, EventArgs e)
         {
+            OpenFileDialog dlg = new OpenFileDialog();
+            if (dlg.ShowDialog() == DialogResult.OK)
+            {
+                geckoWebBrowser1.Navigate(dlg.FileName);
+            }
             //geckoWebBrowser1.LoadHtml()
         }
 
@@ -82,7 +89,7 @@ namespace Scleroglossa
 
         private void BtnViewSource_Click(object sender, EventArgs e)
         {
-            //geckoWebBrowser1.DomDocument.
+            geckoWebBrowser1.Navigate("view-source:" + txtUrlBar.Text);
         }
 
         private void BtnAbout_Click(object sender, EventArgs e)
@@ -218,20 +225,6 @@ namespace Scleroglossa
         //    string source = webBrowser1.DocumentText.ToString();
         //    Source window = new Source(source);
         //    window.ShowDialog();
-        //}
-
-        ///// <summary>
-        ///// Opens a HTML file for display.
-        ///// </summary>
-        ///// <param name="sender"></param>
-        ///// <param name="e"></param>
-        //private void btnOpen_Click(object sender, EventArgs e)
-        //{
-        //    OpenFileDialog dlg = new OpenFileDialog();
-        //    if (dlg.ShowDialog() == DialogResult.OK)
-        //    {
-        //        webBrowser1.Navigate(dlg.FileName);
-        //    }
         //}
 
         private void BtnBookmark_Click(object sender, EventArgs e)
