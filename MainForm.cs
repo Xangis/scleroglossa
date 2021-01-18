@@ -85,6 +85,22 @@ namespace Scleroglossa
 
         private void BtnPrint_Click(object sender, EventArgs e)
         {
+            var print = Gecko.Xpcom.QueryInterface<Gecko.nsIWebBrowserPrint>(geckoWebBrowser1.Window.DomWindow);
+            var settings = print.GetGlobalPrintSettingsAttribute();
+            //mySettings.SetPrintSilentAttribute(true);
+            //mySettings.SetPrintToFileAttribute(true);
+            //mySettings.SetShowPrintProgressAttribute(false);
+            //mySettings.SetOutputFormatAttribute(2); //2 == PDF
+            //mySettings.SetToFileNameAttribute(@"c:\temp\temp.pdf");
+            //mySettings.SetPrintBGImagesAttribute(true);
+            //mySettings.SetStartPageRangeAttribute(1);
+            //mySettings.SetEndPageRangeAttribute(100);
+            //mySettings.SetPrintOptions(2, true); // evenPages
+            //mySettings.SetPrintOptions(1, true); // oddpages
+            //mySettings.SetShrinkToFitAttribute(true);
+            //mySettings.SetScalingAttribute(1.0);
+            //mySettings.SetPrintBGImagesAttribute(true);
+            print.Print(settings, new Gecko.WebProgressListener());
         }
 
         private void BtnViewSource_Click(object sender, EventArgs e)
@@ -214,18 +230,6 @@ namespace Scleroglossa
                 this.Text = "Scleroglossa Browser";
             }
         }
-
-        //private void btnPrint_Click(object sender, EventArgs e)
-        //{
-        //    webBrowser1.Print();
-        //}
-
-        //private void btnViewSource_Click(object sender, EventArgs e)
-        //{
-        //    string source = webBrowser1.DocumentText.ToString();
-        //    Source window = new Source(source);
-        //    window.ShowDialog();
-        //}
 
         private void BtnBookmark_Click(object sender, EventArgs e)
         {
