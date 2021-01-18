@@ -44,7 +44,7 @@ namespace Scleroglossa
             LoadBookmarks();
             cbBookmarks.SelectedIndexChanged += new EventHandler(cbBookmarks_SelectedIndexChanged);
             //MessageBox.Show("Browser version: " + webBrowser1.Version.ToString());
-            geckoWebBrowser1.Navigate("https://wbsrch.com");
+            geckoWebBrowser1.Navigate(url);
             //geckoWebBrowser1.SetXULBrowserWindowAttribute();
         }
 
