@@ -9,11 +9,9 @@ Todo:
 
 https://developer.mozilla.org/en-US/docs/Mozilla/Gecko/Embedding_Mozilla/FAQ/How_do_I...
 
-Fix window artifacts on resize -- seems to be border of input box and/or go button.
 Enable right-click in the page -- to copy link, etc.
 Anything that opens in a new tab opens a broken window. Handle that gracefully.
 Add tabbed browsing.
-Create a v1.0 installer that is just the single tab version.
 Get print working -- it kinda works in that it shows a window with print settings like it's gonna print.
 Reduce left size border. Right side border is like 1-2 pixels and left is ~5. Also reduce bottom border, goes off the edge. Not sure how many pixels it needs, and may need fewer in the VM.
 Don't make all links open in a new window.
