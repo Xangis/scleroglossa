@@ -44,8 +44,11 @@ namespace Scleroglossa
             LoadBookmarks();
             cbBookmarks.SelectedIndexChanged += new EventHandler(cbBookmarks_SelectedIndexChanged);
             //MessageBox.Show("Browser version: " + webBrowser1.Version.ToString());
+            geckoWebBrowser1.Width = this.Width - 24;
+            geckoWebBrowser1.Height = this.Height - 102;
             geckoWebBrowser1.Navigate(url);
             //geckoWebBrowser1.SetXULBrowserWindowAttribute();
+
         }
 
         private void BtnBack_Click(object sender, EventArgs e)
@@ -244,7 +247,7 @@ namespace Scleroglossa
         protected override void OnSizeChanged(EventArgs e)
         {
             base.OnSizeChanged(e);
-            geckoWebBrowser1.Width = this.Width - 26;
+            geckoWebBrowser1.Width = this.Width - 24;
             geckoWebBrowser1.Height = this.Height - 104;
             txtUrlBar.Width = this.Width - 64;
             btnGo.Location = new Point(this.Width - 54, btnGo.Location.Y);
