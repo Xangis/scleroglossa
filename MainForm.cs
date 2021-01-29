@@ -31,7 +31,7 @@ namespace Scleroglossa
             }
             InitializeComponent();
             Xpcom.Initialize("Firefox");
-            string sUserAgent = "Scleroglossa/1.0 / Mozilla/5.0 (compatible; Windows) Gecko/60 Firefox/60";
+            string sUserAgent = "Scleroglossa/1.01 / Mozilla/5.0 (compatible; Windows) Gecko/60 Firefox/60";
             Gecko.GeckoPreferences.User["general.useragent.override"] = sUserAgent;
             //btnBack.Enabled = false;
             //btnForward.Enabled = false;
@@ -182,7 +182,12 @@ namespace Scleroglossa
         {
             if (e.KeyChar == (char)13)
             {
-                geckoWebBrowser1.Navigate(txtUrlBar.Text);
+                String url = txtUrlBar.Text;
+                if( !url.StartsWith("http"))
+                {
+                    url = "https://" + url;
+                }
+                geckoWebBrowser1.Navigate(url);
             }
         }
 
@@ -251,6 +256,15 @@ namespace Scleroglossa
             geckoWebBrowser1.Height = this.Height - 104;
             txtUrlBar.Width = this.Width - 64;
             btnGo.Location = new Point(this.Width - 54, btnGo.Location.Y);
+        }
+
+        private void form_KeyDown(object sender, KeyEventArgs e)
+        {
+            MessageBox.Show("keydown");
+            if (e.Alt && e.KeyCode == Keys.D)
+            {
+                txtUrlBar.Focus();
+            }
         }
     }
 }

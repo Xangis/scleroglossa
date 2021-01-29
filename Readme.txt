@@ -1,7 +1,14 @@
-﻿Version 1.0 Notes:
+﻿Version 1.01 Notes:
+- Naked URL now adds https:// before navigating (so we can load paypal from a naked domain).
+- User-agent: Scleroglossa/1.01 / Mozilla/5.0 (compatible; Windows) Gecko/60 Firefox/60";
+- GeckoFX 32 60.0.54
+- html5test.com score 477 out of 555.
+
+Version 1.0 Notes:
 
 - First release.
 - User-agent: Scleroglossa/1.0 / Mozilla/5.0 (compatible; Windows) Gecko/60 Firefox/60";
+- GeckoFX 32 60.0.52
 - Features more-or-less the same as ThreeTeeth.
 - html5test.com score 477 out of 555.
 
