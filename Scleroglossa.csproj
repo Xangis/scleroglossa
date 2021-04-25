@@ -63,11 +63,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AboutBox.Designer.cs" />
-    <Compile Include="AboutBox1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>AboutBox.resx</DependentUpon>
-    </Compile>
     <Compile Include="AddBookmark.cs">
       <SubType>Form</SubType>
     </Compile>

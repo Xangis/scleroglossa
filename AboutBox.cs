@@ -20,7 +20,7 @@ namespace Scleroglossa
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            mainWindow.Browser.Navigate("https://lambdacentauri.com/software_threeteeth.htm");
+            mainWindow.Browser.Navigate("https://lambdacentauri.com/software_scleroglossa.htm");
         }
 
         private void btnClose_Click(object sender, EventArgs e)

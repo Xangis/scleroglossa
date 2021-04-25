@@ -44,7 +44,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(93, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Scleroglossa v1.01";
+            this.label1.Text = "Scleroglossa v1.02";
             // 
             // label3
             // 
@@ -75,7 +75,7 @@
             this.linkLabel2.Size = new System.Drawing.Size(257, 13);
             this.linkLabel2.TabIndex = 7;
             this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "https://lambdacentauri.com/software_threeteeth.htm";
+            this.linkLabel2.Text = "https://lambdacentauri.com/software_scleroglossa.htm";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // btnClose
