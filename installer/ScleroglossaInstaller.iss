@@ -2,11 +2,11 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Scleroglossa"
-#define MyAppVersion "1.0"
+#define MyAppVersion "1.01"
 #define MyAppPublisher "Lambda Centauri"
 #define MyAppURL "https://lambdacentauri.com/software_scleroglossa.htm"
 #define MyAppExeName "Scleroglossa.exe"
-#define CodeDir "E:\code\Scleroglossa"
+#define CodeDir "D:\code\Scleroglossa"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.

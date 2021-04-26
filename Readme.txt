@@ -1,8 +1,10 @@
 ﻿Version 1.01 Notes:
+
 - Naked URL now adds https:// before navigating (so we can load paypal from a naked domain).
 - User-agent: Scleroglossa/1.01 / Mozilla/5.0 (compatible; Windows) Gecko/60 Firefox/60";
-- GeckoFX 32 60.0.54
-- html5test.com score 477 out of 555.
+- About box now shows correct link and icon.
+- GeckoFX 32 60.0.55
+- html5test.com score 480 out of 555.
 
 Version 1.0 Notes:
 
